@@ -19,5 +19,6 @@ int main(void){
     }else{
         printf("red");
     }
-
+    
+    return 0;
 }
