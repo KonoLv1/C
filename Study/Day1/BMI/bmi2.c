@@ -18,6 +18,7 @@ int main (void){
 }
 
 int class(double date){
+
     printf("あなたのBMIは　%2.2lf　で、判定結果は【 ",date);
     if (date < 16){
         printf("痩せすぎ");
@@ -37,15 +38,18 @@ int class(double date){
         printf("肥満（３度）");
     }
     printf(" 】です。");
+
     return 0;
 }
 
 //  ここからは操作不要   //
 
 int endcheck(void){
+
     char end[256];
     printf("\n\n終了するには文字を入力してください");
     scanf("%s",end);
+    
     return 0;
 }
 
