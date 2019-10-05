@@ -13,10 +13,7 @@ int AnsewrCheck(char *buf6,int score,int all,int mode);
 int main(){
   FILE *fp;
   char *fname = "AP.csv";
-  int ret,i;
-  int max;
-  int mode;
-  int score,all;
+  int i,max,mode,score,all;
   all = score = 0;
   char buf[BUF];
   char buf1[BUF];
@@ -47,7 +44,7 @@ int main(){
     buf5 : 選択肢４データ
     buf6 : 正解番号
     */
-   
+
     fscanf(fp, "%[^,],%[^,],%[^,],%[^,],%[^,],%s", buf1, buf2, buf3, buf4, buf5, buf6);
     // 選択肢をランダムで表示
     mode = rand() % 4 + 1;
