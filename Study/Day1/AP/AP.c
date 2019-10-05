@@ -38,6 +38,16 @@ int main(){
   max = atoi(buf);
   // 問題数分ループ
   for(i = 0; i < max; i++){  
+
+    /*
+    buf1 : 出題
+    buf2 : 選択肢１データ
+    buf3 : 選択肢２データ
+    buf4 : 選択肢３データ
+    buf5 : 選択肢４データ
+    buf6 : 正解番号
+    */
+   
     fscanf(fp, "%[^,],%[^,],%[^,],%[^,],%[^,],%s", buf1, buf2, buf3, buf4, buf5, buf6);
     // 選択肢をランダムで表示
     mode = rand() % 4 + 1;
