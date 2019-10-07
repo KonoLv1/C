@@ -1,4 +1,4 @@
-20,,,,,
+22,,,,,
 AP‚Æ‚Í,‰ž—pî•ñ‹ZpŽÒŽŽŒ±,Šî–{î•ñ‹ZpŽÒŽŽŒ±,ŠëŒ¯•¨ŽæˆµŽÒŽŽŒ±,ITƒpƒXƒ|[ƒgŽŽŒ±,1
 FE‚Æ‚Í,‰ž—pî•ñ‹ZpŽÒŽŽŒ±,Šî–{î•ñ‹ZpŽÒŽŽŒ±,ŠëŒ¯•¨ŽæˆµŽÒŽŽŒ±,ITƒpƒXƒ|[ƒgŽŽŒ±,2
 USB3.0‚Ì“Á’¥‚Í‚Ç‚ê‚©H,”¼“ñd’ÊM‚Å‚ ‚é,‘S“ñd’ÊM‚Å‚ ‚é,Å‘å‹Ÿ‹‹“d—¬‚Í500mA,USB2.0‚ÌƒP[ƒuƒ‹‚ÍŽh‚¹‚È‚¢,2
@@ -19,3 +19,6 @@ ISO 21500‚É‚æ‚ê‚ÎC‘gD‚Æ‚µ‚Ä‚Ì•W€‰»CƒvƒƒWƒFƒNƒgƒ}ƒlƒWƒƒ“ƒg‚Ì‹³ˆçŒP—ûCƒvƒƒ
 ƒRƒAƒRƒ“ƒsƒ^ƒ“ƒX‚ÉŠY“–‚·‚é‚à‚Ì‚Í‚Ç‚ê‚©B,Žå‚ÈŽ–‹ÆƒhƒƒCƒ“‚Ì‚‚¢¬’·—¦,‹£‡‘¼ŽÐ‚æ‚è‚àŒø—¦«‚ª‚‚¢¶ŽYƒVƒXƒeƒ€,ŽQ“ü‚ð—\’è‚µ‚Ä‚¢‚éŽ–‹Æ•ª–ì‚Ì‹£‡ó‹µ,Žû‰v«‚ª‚‚¢Ž–‹Æ•ª–ì‚Å‚ÌŽsêƒVƒFƒA,2
 Ä‹A“I‚Èˆ—‚ðŽÀŒ»‚·‚é‚½‚ß‚É‚ÍCÄ‹A“I‚ÉŒÄ‚Ño‚µ‚½‚Æ‚«‚ÌƒŒƒWƒXƒ^‹y‚Ñƒƒ‚ƒŠ‚Ì“à—e‚ð•Û‘¶‚µ‚Ä‚¨‚­•K—v‚ª‚ ‚éB‚»‚Ì‚½‚ß‚Ì‹L‰¯ŠÇ—•ûŽ®‚Í‚Ç‚ê‚©B,FIFO,LFU,LIFO,LRU,3
 —vŒ’è‹`‚É‚¨‚¢‚ÄC—˜—pŽÒ‚âŠO•”ƒVƒXƒeƒ€‚ÆC‹Æ–±‚Ì‹@”\‚ð•ª—£‚µ‚Ä•\Œ»‚·‚é‚±‚Æ‚ÅC—˜—pŽÒ‚ðŠÜ‚ß‚½‹Æ–±‘S‘Ì‚Ì”ÍˆÍ‚ð–¾‚ç‚©‚É‚·‚é‚½‚ß‚ÉŽg—p‚³‚ê‚é}‚Í‚Ç‚ê‚©B,ƒAƒNƒeƒBƒrƒeƒB},ƒIƒuƒWƒFƒNƒg},ƒNƒ‰ƒX},ƒ†[ƒXƒP[ƒX},4
+ROI‚ÍŽŸ‚Ì‚¤‚¿‚Ç‚ê‚©,“ŠŽ‘Žû‰v—¦,Ž©ŒÈŽ‘–{—˜‰v—¦,Š”‰¿Žû‰v—¦,¡Šú‘‰v—¦,1
+UTF-8‚É‚Â‚¢‚Äà–¾‚µ‚½‚à‚Ì‚Í‚Ç‚ê‚©,"1•¶Žš‚ð1ƒoƒCƒgi‚Ü‚½‚Í6ƒoƒCƒgj‚Ü‚Å‚Ì‰Â•Ï’·‚Å•\Œ»‚µ‚Ä‚¨‚è,ASCII‚ÆãˆÊŒÝŠ·«‚ª‚ ‚éB",2ƒoƒCƒg‚Å•\Œ»‚·‚é—Ìˆæ‚ÉŽû‚Ü‚ç‚È‚¢•¶Žš‚ÍAãˆÊƒTƒƒQ[ƒg‚Æ‰ºˆÊƒTƒƒQ[ƒg‚ð‘g‚Ý‡‚í‚¹‚Ä4ƒoƒCƒg‚Å•\Œ»‚·‚é,ASCII•¶Žš‚¾‚¯‚ðŽg—p‚·‚é‚±‚Æ‚ª‘O’ñ‚Ì“dŽqƒ[ƒ‹‚ÅŽg—p‚·‚é‚½‚ß‚É7ƒrƒbƒg‚Å•\Œ»‚·‚é,Še•„†ˆÊ’u‚ª4ƒoƒCƒg‚ÌŒÅ’è’·‚Å•\Œ»‚³‚ê‚é•„†‰»Œ`Ž®‚Å‚ ‚éB,1
+END,END,END,END,END,1
