@@ -9,7 +9,6 @@
 #define BUF 256
 
 int AnsewrCheck(char *buf6,int score,int all,int mode);
-
 int main(){
   FILE *fp;
   char *fname = "AP.csv";
@@ -24,6 +23,9 @@ int main(){
   char buf6[BUF];
   //  乱数初期化
   srand((unsigned int)time(NULL));
+  Login();
+
+
   //  問題用csvファイル読み込み 
   fp = fopen( fname, "r" );
   if( fp == NULL ){
@@ -71,6 +73,8 @@ int main(){
   }
   fclose( fp );
 }
+
+
 
 // 正誤判定とコマンド入力用関数
 int AnsewrCheck(char *buf6,int score,int all,int mode){
