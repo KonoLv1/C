@@ -9,10 +9,12 @@
 #define BUF 256
 
 int AnsewrCheck(char *buf6,int score,int all,int mode);
-void Login();
+
 int main(){
   FILE *fp;
+  FILE *fp2;
   char *fname = "AP.csv";
+  char *fname2 = "RANKING.csv";
   int i,max,mode,score,all;
   all = score = 0;
   char buf[BUF];
@@ -22,9 +24,16 @@ int main(){
   char buf4[BUF];
   char buf5[BUF];
   char buf6[BUF];
+
+  char rank[BUF];
+  char rank1[BUF];
+  char rank2[BUF];
+  char rank3[BUF];
+  char rank4[BUF];
+
   //  乱数初期化
   srand((unsigned int)time(NULL));
-  Login();
+
 
 
   //  問題用csvファイル読み込み 
@@ -33,7 +42,18 @@ int main(){
     printf( "%sファイルが見つかりません\n", fname );
     return -1;
   }
-  fscanf(fp,"%s",buf);
+  fscanf(fp,"%s",rank);
+  
+    //  ランキング用csvファイル読み込み 
+  fp2 = fopen( fname2, "r" );
+  if( fp2 == NULL ){
+    printf( "%sファイルが見つかりません\n", fname2 );
+    return -1;
+  }
+  fscanf(fp2,"%s",buf2);
+  
+  fscanf(fp2, "%[^,],%[^,],%[^,],%s", rank1, rank2, rank3, rank4);
+  
   // 問題数を読み込み
   max = atoi(buf);
   // 問題数分ループ
@@ -74,11 +94,6 @@ int main(){
   }
   fclose( fp );
 }
-
-Login(){
-  printf("メニュー\n\n1.新規アカウント生成\n2.ログインして挑戦\n3.ランキング");
-}
-
 
 // 正誤判定とコマンド入力用関数
 int AnsewrCheck(char *buf6,int score,int all,int mode){
